@@ -1,0 +1,14 @@
+{
+    "extends": ["./tsconfig.base.json"],
+    "compilerOptions": {
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "paths": {
+            "@repo/example/*": ["./src/*"]
+        },
+        "types": ["node"]
+    },
+    "include": ["src"]
+}

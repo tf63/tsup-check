@@ -1,0 +1,24 @@
+{
+    "name": "example",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "start": "tsx src/index.ts",
+        "watch": "tsx watch src/index.ts"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.8.3",
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "@types/node": "^22.2.0",
+        "prettier": "^3.2.5",
+        "prettier-plugin-tailwindcss": "^0.6.6",
+        "tsx": "^4.17.0"
+    },
+    "packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35",
+    "dependencies": {
+        "@tf63/sample-package-tsup": "^0.0.1",
+        "@tf63/sample-package-vite": "^0.0.0"
+    }
+}
